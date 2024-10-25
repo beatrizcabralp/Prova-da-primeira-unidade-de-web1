@@ -1,0 +1,136 @@
+#contato
+{
+    width: 100%;
+    height: 30.875rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.linha-vermelha-contato
+{
+    border: 3px solid darkred;
+}
+
+.container-contato
+{
+    margin-top: 120px;
+    margin-bottom: 20px;
+    width: 70%;
+    font-size: 2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+}
+
+.container-titulo-contato
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+    margin-top: 0px;
+}
+
+.container-formulario
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.formulario
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-formulario1
+{
+    height: 40px;
+    margin-bottom: 40px;
+    width: 240px;
+    background-color: gray;
+    opacity: 30%;
+    border-radius: 10px;
+    color: #FFFFFF;
+    padding-left: 5px;
+    font-size: 1rem;
+}
+
+.input-formulario
+{
+    height: 40px;
+    margin-bottom: 20px;
+    width: 240px;
+    background-color: gray;
+    opacity: 30%;
+    border-radius: 10px;
+    color: #FFFFFF;
+    padding-left: 5px;
+    font-size: 1rem;
+}
+
+.input-formulario3
+{
+    height: 40px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    width: 240px;
+    background-color: gray;
+    opacity: 30%;
+    border-radius: 10px;
+    color: #FFFFFF;
+    padding-left: 5px;
+    font-size: 1rem;
+}
+
+
+.mensagem
+{
+    margin-left: 20px;
+}
+
+.mensagem-textarea
+{
+    height: 220px;
+    width: 320px;
+    background-color: gray;
+    opacity: 30%;
+    color: #FFFFFF;
+}
+
+.titulo-contato-linha-azul
+{
+   color: rgb(18, 18, 74);
+}
+
+.titulo-contato-linha-vermelha
+{
+    color: darkred;
+}
+
+.container-botao-contato
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    width: 100%;
+}
+
+.botao-contato
+{
+    margin: 20px;
+    width: 100%;
+    padding: 20px;
+    background-color: darkred;
+    border-radius: 10px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+

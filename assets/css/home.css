@@ -1,0 +1,233 @@
+/******************************************Body***********************************************/
+body
+{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+}
+
+/***********************************************************Main********************************************************************************/
+
+/********************Banner****************/
+
+#banner, #banner img
+{
+    width: 100%;
+}
+
+/***********************************************Boas Vindas***********************************************************/
+#bem-vindo
+{
+    width: 100%;
+    height: 42.875rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    /*border: 1px solid green;*/
+}
+.container-boas-vindas-texto
+{
+    width: 100%;
+    height: 90%;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    padding: 30px;
+}
+
+/*********************************Container principal*******************/
+
+.container-boas-vindas-texto-principal
+{
+    width: 60%;
+}
+
+/****************************Titulo*********************************/
+
+.container-boas-vindas-texto-titulo
+{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 2.5rem;
+}
+
+.container-boas-vindas-texto-titulo-azul
+{
+    color: rgb(18, 18, 74);
+    width: 100%;
+}
+
+.container-boas-vindas-texto-titulo-vermelho
+{
+    color: darkred;
+    width: 100%;
+}
+/******************Linha*****************/
+
+.container-boas-vindas-texto-linha
+{
+    border-top: 5px solid gray;
+    opacity: 10%;
+    margin: 20px 30px 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+/********************Paragrafo*************************/
+
+.container-boas-vindas-itens
+{
+    width: 95%;
+    align-items: center;
+}
+
+.container-boas-vindas-itens-paragrafo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.15rem;
+    line-height: 1.75rem;
+    font-weight: 100;
+    opacity: 70%;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 95%;
+    height: 80%;
+    max-width: 600px;
+}
+
+/***********************Botão*************************/
+
+.container-boas-vindas-itens-buttom
+{
+    width: 100%;
+    height: 4rem;
+    margin-top: 40px;
+    max-width: 100%;
+    
+}
+
+.boas-vindas-itens-buttom
+{
+    margin-top: 0px;
+    padding: 20px;
+    background-color: darkred;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    max-width: 150px;
+    width: 100%;
+}
+
+
+/**************************Imagem*****************************/
+.container-boas-vindas-imagem
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 90%;
+    width: 40%;
+}
+.container-boas-vindas-imagem img
+{
+   width: 100%;
+   height: 100%;
+}
+
+
+
+
+/************************************************************Serviços*******************************************************************/
+
+#servicos
+{
+    width: 100%;
+    height: 36.875rem;
+    background-color: rgb(18, 18, 74);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-de-servicos
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+}
+
+.servico
+{
+    width: 80%;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid rgb(245, 245, 245, 0.5);
+    border-radius: 10px;
+}
+
+.imagem-servico
+{
+    width: 100%;
+}
+
+.imagem-servico img
+{
+   width: 100%;
+}
+
+.titulo-servico
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-servico h2
+{
+    text-transform: uppercase;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+}
+
+.paragrafo-servico
+{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttom-servicos
+{
+    margin: 30px 0px 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: darkred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+}
